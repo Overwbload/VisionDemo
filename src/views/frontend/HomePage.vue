@@ -100,7 +100,7 @@
         <h4 class="my-4 text-center">{{ $t('features.patrolSystem') }}
           <img src="@/assets/images/layout/new.png" alt="" class="new img-fluid">
         </h4>
-        <p class="text-muted text-start">{{ $t('features.patrolSystemDesc') }}</p>
+        <p class="text-muted text-start px-3">{{ $t('features.patrolSystemDesc') }}</p>
       </div>
     </div>
     <div class="feature row flex-row-reverse mt-4">
@@ -111,7 +111,7 @@
       </div>
       <div class="col-md-4 m-auto" data-aos="flip-left">
         <h4 class="my-4 text-center">{{ $t('features.transportNetwork') }}</h4>
-        <p class="text-muted text-start">{{ $t('features.transportNetworkDesc') }}</p>
+        <p class="text-muted text-start px-3">{{ $t('features.transportNetworkDesc') }}</p>
       </div>
     </div>
   </div>
