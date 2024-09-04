@@ -270,7 +270,7 @@ export default {
 }
 </script>
 
-<style scope>
+<style scoped>
 .table{
   max-width: 100%;
 }

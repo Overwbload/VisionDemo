@@ -1,7 +1,7 @@
 <template>
   <div class="container d-flex justify-content-center align-items-center min-vh-100">
-    <div class="w-100 h-100 position-absolute" style="z-index: -1; top: 0;left: 0; background-image: url('https://images.unsplash.com/photo-1553136838-4daa421120b0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-      background-size: cover; background-position: center center; opacity: 0.8;">
+    <div class="w-100 h-100 position-absolute" style="z-index: -1;">
+      <img src="/src/assets/images/homepage/login.jpg" alt="Background" class="background-image">
     </div>
     <div class="row justify-content-center w-100">
       <h1 class="h3 my-3 font-weight-normal text-center">
@@ -72,8 +72,15 @@ export default {
 }
 </script>
 
-<style scope>
+<style scoped>
 h1 {
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* 添加阴影效果 */
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 确保图片覆盖整个背景区域 */
+  opacity: 0.8; /* 设置透明度 */
 }
 </style>

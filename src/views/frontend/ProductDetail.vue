@@ -145,7 +145,7 @@ export default {
 }
 </script>
 
-<style scope>
+<style scoped>
 /* Swiper */
 .detailSwiper2, .detailSwiper {
   max-width: 100%;

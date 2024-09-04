@@ -3,19 +3,19 @@
     <Swiper class="homePage-Swiper" :slides-per-view="1" :space-between="50" :modules="modules" loop
       :autoplay="{ delay: 10000, disableOnInteraction: false }" effect="fade">
       <SwiperSlide>
-        <div class="slide-content" style="background-image: url('https://images.unsplash.com/photo-1488263590619-bc1fff43b6c1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"></div>
+        <div class="slide-content"><img src="@/assets/images/homepage/background1.jpg" alt="Slide Image" class="slide-image" /></div>
       </SwiperSlide>
       <SwiperSlide>
-        <div class="slide-content" style="background-image: url('https://images.pexels.com/photos/319968/pexels-photo-319968.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1278&dpr=1');"></div>
+        <div class="slide-content"><img src="@/assets/images/homepage/background2.jpg" alt="Slide Image" class="slide-image" /></div>
       </SwiperSlide>
       <SwiperSlide>
-        <div class="slide-content" style="background-image: url('https://cdn.pixabay.com/photo/2017/06/11/17/13/drone-2392925_1280.jpg');"></div>
+        <div class="slide-content"><img src="@/assets/images/homepage/background3.jpg" alt="Slide Image" class="slide-image" /></div>
       </SwiperSlide>
       <SwiperSlide>
-        <div class="slide-content" style="background-image: url('https://images.unsplash.com/photo-1515405969538-5642ed9d0cc4?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"></div>
+        <div class="slide-content"><img src="@/assets/images/homepage/background4.jpg" alt="Slide Image" class="slide-image" /></div>
       </SwiperSlide>
       <SwiperSlide>
-        <div class="slide-content" style="background-image: url('https://images.unsplash.com/photo-1622048982661-af7d1bdff6c3?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"></div>
+        <div class="slide-content"><img src="@/assets/images/homepage/background5.jpg" alt="Slide Image" class="slide-image" /></div>
       </SwiperSlide>
       <div class="container overlay-content position-absolute">
         <div data-aos="zoom-in">
@@ -199,12 +199,20 @@ export default {
   --swiper-navigation-color: #cfd8dc;
   --swiper-pagination-color: #cfd8dc;
 }
+
 .slide-content {
-  background-size: cover;
-  background-position: center;
-  /* position: relative; */
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 保持图片比例，且覆盖整个容器 */
+}
+
 .overlay-content {
   padding: 1%;
   top: 50%;
