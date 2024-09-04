@@ -37,7 +37,7 @@
           <div class="card-body text-center mt-2" data-aos="zoom-in">
             <h4>{{ $t('features.record') }}</h4>
             <div class="d-flex justify-content-between">
-              <p class="card-text text-muted mb-0">
+              <p class="card-text text-muted mb-0 text-start">
                 {{ $t('features.recordDesc') }}
               </p>
             </div>
@@ -52,7 +52,7 @@
           <div class="card-body text-center mt-2" data-aos="zoom-in">
             <h4>{{ $t('features.agriculture') }}</h4>
             <div class="d-flex justify-content-between">
-              <p class="card-text text-muted mb-0">
+              <p class="card-text text-muted mb-0 text-start">
                 {{ $t('features.agricultureDesc') }}
               </p>
             </div>
@@ -67,7 +67,7 @@
           <div class="card-body text-center mt-2" data-aos="zoom-in">
             <h4>{{ $t('features.rescue') }}</h4>
             <div class="d-flex justify-content-between">
-              <p class="card-text text-muted mb-0">
+              <p class="card-text text-muted mb-0 text-start">
                 {{ $t('features.rescueDesc') }}
               </p>
             </div>
