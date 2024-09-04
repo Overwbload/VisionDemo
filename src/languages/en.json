@@ -5,9 +5,9 @@
     "cart": "Cart",
     "backend": "Admin Backend",
     "selectLanguage": "Select Language",
-    "chinese": "Chinese",
+    "chinese": "中文",
     "english": "English",
-    "japanese": "Japanese"
+    "japanese": "日本語"
   },
   "footer": {
     "credit": "Personal project, not for commercial use."
