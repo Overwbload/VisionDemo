@@ -78,7 +78,7 @@
   </div>
   <div class="bg-light mt-3" style="background: linear-gradient(to right, #eceff1, #cfd8dc);">
     <div class="container">
-      <div class="row justify-content-center py-7">
+      <div class="row justify-content-center py-5">
         <div class="col-md-6 text-center" data-aos="flip-left">
           <h3>{{ $t('features.app') }}</h3>
           <p class="my-5">“ {{ $t('features.appDesc') }} ”</p>
@@ -89,22 +89,22 @@
       </div>
     </div>
   </div>
-  <div class="container my-5">
+  <div class="container mt-5">
     <div class="feature row">
-      <div class="col-md-6 overflow-hidden">
+      <div class="col-md-6 overflow-hidden p-0">
         <div class="img-container">
           <img src="@/assets/images/homepage/feature1.jpg" alt="" class="img-fluid" data-aos="flip-left">
         </div>
       </div>
       <div class="col-md-4 m-auto" data-aos="flip-left">
-        <h4 class="my-4 d-flex justify-content-center align-items-center">{{ $t('features.patrolSystem') }}
+        <h4 class="my-4 text-center">{{ $t('features.patrolSystem') }}
           <img src="@/assets/images/layout/new.png" alt="" class="new img-fluid">
         </h4>
         <p class="text-muted text-start">{{ $t('features.patrolSystemDesc') }}</p>
       </div>
     </div>
-    <div class="feature row flex-row-reverse justify-content-between mt-4">
-      <div class="col-md-6 overflow-hidden">
+    <div class="feature row flex-row-reverse mt-4">
+      <div class="col-md-6 overflow-hidden p-0">
         <div class="img-container">
           <img src="@/assets/images/homepage/feature2.jpg" alt="" class="img-fluid" data-aos="flip-left">
         </div>
@@ -115,7 +115,7 @@
       </div>
     </div>
   </div>
-  <div class="container mb-5 position-relative">
+  <div class="container my-5 position-relative">
     <Swiper class="homePage-Swiper" :slides-per-view="1" :space-between="50" :modules="modules" loop
       navigation :pagination="{ clickable: true }"
       :autoplay="{ delay: 10000, disableOnInteraction: false }" effect="fade">
@@ -143,10 +143,12 @@
       <h2 class="fs-1">{{ $t('features.capture') }}</h2>
       <RouterLink to="/products" class="btn btn-outline-light rounded-1 mt-3">{{ $t('common.buyNow') }}</RouterLink>
     </div>
-    <audio controls class="">
-      <source src="@/assets/audio/371.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
+    <div class="d-flex justify-content-center pt-2">
+      <audio controls>
+        <source src="@/assets/audio/371.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
   </div>
 </template>
 
@@ -270,6 +272,11 @@ export default {
   .homePage-Swiper {
     height: 65vh;
   }
+  .overlay-content {
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
   .video-content h2{
     font-size: 21px !important;
   }
