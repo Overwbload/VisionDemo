@@ -1,0 +1,108 @@
+{
+  "menu": {
+    "home": "Home",
+    "droneList": "Drone List",
+    "cart": "Cart",
+    "backend": "Backend",
+    "selectLanguage": "Select Language",
+    "chinese": "Chinese",
+    "english": "English",
+    "japanese": "Japanese"
+  },
+  "footer": {
+    "credit": "Personal project, not for commercial use."
+  },
+  "home": {
+    "slogan": "Vision Starts Here",
+    "tech": "Professional Technology · Leading the World"
+  },
+  "features": {
+    "record": "Life Record",
+    "recordDesc": "From an aerial view, presenting a unique perspective and dynamic visuals, making every moment of life more vivid and unforgettable.",
+    "agriculture": "Agricultural Support",
+    "agricultureDesc": "Drones in modern agriculture perform precise fertilization and spraying, greatly improving agricultural productivity.",
+    "rescue": "Mountain Rescue",
+    "rescueDesc": "In complex mountain environments, drones can quickly locate trapped individuals and help rescue teams devise optimal rescue routes.",
+    "app": "Smart APP",
+    "appDesc": "With our drone APP, you can operate the drone through smart devices at any time.",
+    "appStore": "App Store Download",
+    "patrolSystem": "Automatic Detection Patrol System",
+    "patrolSystemDesc": "With the latest automatic detection patrol system, drones can autonomously conduct wide-area monitoring, providing round-the-clock security, and keeping you informed of the situation.",
+    "transportNetwork": "Short-Distance Mobile Transport Network (In Development)",
+    "transportNetworkDesc": "In the future, we aim to develop a manned mobile transport network, allowing you to quickly traverse the city with drones for a more convenient travel experience.",
+    "capture": "Exciting Imagery · Perfect Capture"
+  },
+  "productPage": {
+    "vision": "Your Vision · Unique",
+    "search": "Search Products",
+    "allProducts": "All Products",
+    "expand": "Expand",
+    "noContent": "No Content"
+  },
+  "productDetailPage": {
+    "back": "Back",
+    "regulations": "－Civil Aviation Law Remote Control Drone Regulations－",
+    "regulation1": "1. Remote control drones with a maximum takeoff weight of 250 grams or more must be registered.",
+    "regulation2": "2. Before operating a remote control drone, check the activity area and comply with operational regulations.",
+    "regulation3": "3. For information on related activity areas and operational regulations, please refer to the Civil Aviation Authority's website and remote control drone resource app.",
+    "addedToCart": "Added to cart",
+    "noContent": "Product not found"
+  },
+  "cart": {
+    "title": "Cart List",
+    "empty": "Cart is Empty",
+    "name": "Name",
+    "quantity": "Quantity",
+    "price": "Price",
+    "clearCart": "Clear Cart",
+    "couponApplied": "Coupon Applied",
+    "discountPrice": "Discount Price",
+    "enterCoupon": "Enter Coupon Code : 8888",
+    "orderDetails": "Order Details",
+    "paymentMethod": "Payment Method",
+    "checkout": "Checkout",
+    "moreRecommendations": "More Recommendations",
+    "cartUpdated": "Cart updated",
+    "deleted": "Deleted",
+    "enterQuantityRange": "Please enter a quantity between 1 and 99",
+    "noDecimalAllowed": "No decimal points allowed",
+    "orderCreated": "Order created",
+    "couponNotFound": "Coupon not found"
+  },
+  "checkout": {
+    "title": "Checkout Page",
+    "coupon": "Coupon-",
+    "paymentMethod": "Payment Method",
+    "contactInfo": "Contact Information",
+    "address": "Recipient Address",
+    "enterAddress": "Enter Address",
+    "name": "Name",
+    "enterName": "Enter Name",
+    "phone": "Phone",
+    "enterPhone": "Enter Phone",
+    "message": "Message",
+    "backToCart": "Back to Cart",
+    "submitOrder": "Submit Order"
+  },
+  "checkoutSuccess": {
+    "success": "Order Successfully Created",
+    "emailMessage": "Please check your email for a confirmation message. Your order number is",
+    "copy": "Copy",
+    "orderCopied": "Order Number Copied",
+    "copyFailed": "Copy Failed"
+  },
+  "login": {
+    "adminLogin": "Admin Login",
+    "login": "Login",
+    "loginSuccess": "Login successful",
+    "logoutSuccess": "Logged out",
+    "notLoggedIn": "Not logged in"
+  },
+  "common": {
+    "backToHome": "Back to Home",
+    "discountPrice": "Discount Price",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "buyNow": "Buy Now"
+  }
+}

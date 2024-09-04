@@ -1,0 +1,108 @@
+{
+  "menu": {
+    "home": "ホーム",
+    "droneList": "ドローン一覧",
+    "cart": "カート",
+    "backend": "バックエンド",
+    "selectLanguage": "言語選択",
+    "chinese": "中国語",
+    "english": "英語",
+    "japanese": "日本語"
+  },
+  "footer": {
+    "credit": "個人のプロジェクトであり、商業目的ではありません。"
+  },
+  "home": {
+    "slogan": "ビジョンはここから始まる",
+    "tech": "専門技術 · 世界をリードする"
+  },
+  "features": {
+    "record": "ライフレコーディング",
+    "recordDesc": "空からの視点で独自の視覚と動的な映像を提供し、人生の瞬間をより生き生きと忘れられないものにします。",
+    "agriculture": "農業支援",
+    "agricultureDesc": "現代農業において、ドローンは精密な施肥と散布を行い、農業生産性を大幅に向上させます。",
+    "rescue": "山林救助",
+    "rescueDesc": "複雑な山林環境で、ドローンは迅速に困難な状況にある人々を特定し、救助チームが最適な救助ルートを作成するのを助けます。",
+    "app": "スマートAPP",
+    "appDesc": "当社のドローンAPPを使用すると、どんな時でもスマートデバイスを通じてドローンを操作できます。",
+    "appStore": "App Store からダウンロード",
+    "patrolSystem": "自動検出パトロールシステム",
+    "patrolSystemDesc": "最新の自動検出パトロールシステムにより、ドローンは自律的に広域監視を行い、24時間体制で安全を提供し、現場の状況を把握できます。",
+    "transportNetwork": "短距離移動交通網（開発中）",
+    "transportNetworkDesc": "将来的には、人を載せる移動交通網の開発に取り組み、ドローンで都市を迅速に移動し、より便利な移動手段を実現します。",
+    "capture": "素晴らしい映像 · 完璧なキャッチ"
+  },
+  "productPage": {
+    "vision": "あなたのビジョン · 独自の",
+    "search": "製品を検索",
+    "allProducts": "すべての製品",
+    "expand": "展開",
+    "noContent": "コンテンツが見つかりません"
+  },
+  "productDetailPage": {
+    "back": "戻る",
+    "regulations": "－民間航空法 遠隔操作ドローン関連規制－",
+    "regulation1": "1. 最大離陸重量が250グラム以上の遠隔操作ドローンは登録が必要です。",
+    "regulation2": "2. 遠隔操作ドローンを使用する前に、活動エリアを確認し、操作規則を遵守してください。",
+    "regulation3": "3. 関連する活動エリアおよび操作規則についての情報は、民間航空局のウェブサイトおよび遠隔操作ドローンのリソースアプリをご覧ください。",
+    "addedToCart": "カートに追加されました",
+    "noContent": "製品が見つかりません"
+  },
+  "cart": {
+    "title": "カート一覧",
+    "empty": "カートは空です",
+    "name": "品名",
+    "quantity": "数量",
+    "price": "価格",
+    "clearCart": "すべて削除",
+    "couponApplied": "クーポン適用済み",
+    "discountPrice": "割引価格",
+    "enterCoupon": "クーポンコード : 8888",
+    "orderDetails": "注文詳細",
+    "paymentMethod": "支払い方法",
+    "checkout": "チェックアウト",
+    "moreRecommendations": "もっとおすすめ",
+    "cartUpdated": "カートが更新されました",
+    "deleted": "削除されました",
+    "enterQuantityRange": "1から99の範囲で入力してください",
+    "noDecimalAllowed": "小数点は入力できません",
+    "orderCreated": "注文が作成されました",
+    "couponNotFound": "クーポンが見つかりません"
+  },
+  "checkout": {
+    "title": "チェックアウトページ",
+    "coupon": "クーポン-",
+    "paymentMethod": "支払い方法",
+    "contactInfo": "連絡情報",
+    "address": "配送先住所",
+    "enterAddress": "住所を入力",
+    "name": "名前",
+    "enterName": "名前を入力",
+    "phone": "電話",
+    "enterPhone": "電話番号を入力",
+    "message": "メッセージ",
+    "backToCart": "カートに戻る",
+    "submitOrder": "注文を送信"
+  },
+  "checkoutSuccess": {
+    "success": "注文が成功しました",
+    "emailMessage": "確認メールをご確認ください。注文番号は",
+    "copy": "コピー",
+    "orderCopied": "注文番号がコピーされました",
+    "copyFailed": "コピーに失敗しました"
+  },
+  "login": {
+    "adminLogin": "管理者ログイン",
+    "login": "ログイン",
+    "loginSuccess": "ログイン成功",
+    "logoutSuccess": "ログアウトしました",
+    "notLoggedIn": "未ログイン"
+  },
+  "common": {
+    "backToHome": "ホームに戻る",
+    "discountPrice": "割引価格",
+    "total": "合計",
+    "subtotal": "小計",
+    "buyNow": "今すぐ購入"
+  }
+}

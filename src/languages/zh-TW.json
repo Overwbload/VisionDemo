@@ -1,0 +1,108 @@
+{
+  "menu": {
+    "home": "首頁",
+    "droneList": "無人機列表",
+    "cart": "購物車",
+    "backend": "後台",
+    "selectLanguage": "選擇語系",
+    "chinese": "中文",
+    "english": "英文",
+    "japanese": "日文"
+  },
+  "footer": {
+    "credit": "個人作品練習，無任何商業用途。"
+  },
+  "home": {
+    "slogan": "遠見從這裡開始",
+    "tech": "專業技術 · 領先全球"
+  },
+  "features": {
+    "record": "生活紀錄",
+    "recordDesc": "從空中俯瞰，呈現出獨特的視角和動感畫面，使每一個生活片段都變得更加生動難忘。",
+    "agriculture": "農業輔助",
+    "agricultureDesc": "無人機在現代農業中，對農田進行精準施肥和噴灑藥劑，大幅提高了農業生產效率",
+    "rescue": "山林救援",
+    "rescueDesc": "在複雜的山林環境中，無人機可以迅速定位被困人員，幫助救援隊伍制定最優救援路線。",
+    "app": "智慧化APP",
+    "appDesc": "透過我們打造的無人機APP，您可以在任何時刻透過智慧裝置進行無人機操作",
+    "appStore": "App Store 下載",
+    "patrolSystem": "自動偵測巡邏系統",
+    "patrolSystemDesc": "透過最新的自動偵測巡邏系統，無人機將能夠自主進行廣域監控，提供全天候的安全守護，讓您隨時掌握現場狀況。",
+    "transportNetwork": "短距離移動交通網(研發中)",
+    "transportNetworkDesc": "未來，我們致力於研發載人移動交通網，讓您能夠以無人機快速穿越城市，實現更便捷的出行方式。",
+    "capture": "精彩影像 · 完美捕捉"
+  },
+  "productPage": {
+    "vision": "您的遠見 · 與眾不同",
+    "search": "搜尋產品",
+    "allProducts": "全部商品",
+    "expand": "展開",
+    "noContent": "查無內容"
+  },
+  "productDetailPage": {
+    "back": "返回",
+    "regulations": "－民航法遙控無人機相關規範－",
+    "regulation1": "1.最大起飛重量二百五十公克以上遙控無人機應辦理註冊。",
+    "regulation2": "2.遙控無人機活動前應注意活動區域與遵守操作規定。",
+    "regulation3": "3.相關活動區域及操作規定資訊，請見民航局網站及遙控無人機圖資行動應用程式。",
+    "addedToCart": "已加入購物車",
+    "noContent": "找不到產品"
+  },
+  "cart": {
+    "title": "購物車列表",
+    "empty": "購物車是空的",
+    "name": "品名",
+    "quantity": "數量",
+    "price": "價格",
+    "clearCart": "清空全部",
+    "couponApplied": "已套用優惠券",
+    "discountPrice": "折扣價",
+    "enterCoupon": "輸入優惠碼 : 8888",
+    "orderDetails": "訂單詳情",
+    "paymentMethod": "付款方式",
+    "checkout": "結帳",
+    "moreRecommendations": "更多推薦",
+    "cartUpdated": "已更新購物車",
+    "deleted": "已刪除",
+    "enterQuantityRange": "請輸入1~99",
+    "noDecimalAllowed": "禁止輸入小數點",
+    "orderCreated": "已建立訂單",
+    "couponNotFound": "找不到優惠券"
+  },
+  "checkout": {
+    "title": "結帳頁面",
+    "coupon": "優惠券-",
+    "paymentMethod": "付款方式",
+    "contactInfo": "聯絡資訊",
+    "address": "收件人地址",
+    "enterAddress": "請輸入地址",
+    "name": "姓名",
+    "enterName": "請輸入姓名",
+    "phone": "電話",
+    "enterPhone": "請輸入電話",
+    "message": "留言",
+    "backToCart": "返回購物車",
+    "submitOrder": "送出訂單"
+  },
+  "checkoutSuccess": {
+    "success": "訂單建立成功",
+    "emailMessage": "請至您的信箱收取確認信件，您的訂單編號為",
+    "copy": "複製",
+    "orderCopied": "訂單編號已複製",
+    "copyFailed": "複製失敗"
+  },
+  "login": {
+    "adminLogin": "管理者登入",
+    "login": "登入",
+    "loginSuccess": "登入成功",
+    "logoutSuccess": "已登出",
+    "notLoggedIn": "尚未登入"
+  },
+  "common": {
+    "backToHome": "回到首頁",
+    "discountPrice": "折扣價",
+    "total": "總計",
+    "subtotal": "小計",
+    "buyNow": "立即購買"
+  }
+}
