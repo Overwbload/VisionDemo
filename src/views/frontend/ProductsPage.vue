@@ -3,7 +3,7 @@
   <div class="position-relative d-flex align-items-center justify-content-center" style="min-height: 400px;">
     <div class="position-absolute banner" style="z-index: -1; top: 0; bottom: 0; left: 0; right: 0; background-position: center calc(25%);
       opacity: 0.5; background-size: cover;">
-      <video autoplay loop muted title="" class="slide-grid-content">
+      <video autoplay loop muted playsinline title="" class="slide-grid-content">
         <source src="https://videos.pexels.com/video-files/3577871/3577871-hd_1920_1080_25fps.mp4"
           type="video/mp4; codecs=avc1.4D401E, mp4a.40.2">
       </video>

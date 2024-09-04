@@ -120,20 +120,20 @@
       navigation :pagination="{ clickable: true }"
       :autoplay="{ delay: 10000, disableOnInteraction: false }" effect="fade">
       <SwiperSlide>
-          <video autoplay loop muted title="" class="slide-grid-content">
+          <video autoplay loop muted playsinline title="" class="slide-grid-content">
             <source
               src="https://cdn.pixabay.com/video/2023/09/24/182082-867762198_large.mp4"
               type="video/mp4; codecs=avc1.4D401E, mp4a.40.2">
           </video>
       </SwiperSlide>
       <SwiperSlide>
-          <video autoplay loop muted title="" class="slide-grid-content">
+          <video autoplay loop muted playsinline title="" class="slide-grid-content">
             <source src="https://cdn.pixabay.com/video/2023/10/12/184734-873923034_large.mp4"
               type="video/mp4; codecs=avc1.4D401E, mp4a.40.2">
           </video>
       </SwiperSlide>
       <SwiperSlide>
-          <video autoplay loop muted title="" class="slide-grid-content">
+          <video autoplay loop muted playsinline title="" class="slide-grid-content">
             <source src="https://videos.pexels.com/video-files/3147227/3147227-uhd_2560_1440_30fps.mp4"
               type="video/mp4; codecs=avc1.4D401E, mp4a.40.2">
           </video>
