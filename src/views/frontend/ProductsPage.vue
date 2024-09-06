@@ -1,6 +1,6 @@
 <template>
   <LoadingOverlay v-model:active="loadingStatus" :is-full-page="true"></LoadingOverlay>
-  <div class="position-relative d-flex align-items-center justify-content-center" style="min-height: 400px;">
+  <!-- <div class="position-relative d-flex align-items-center justify-content-center" style="min-height: 400px;">
     <div class="position-absolute banner" style="z-index: -1; top: 0; bottom: 0; left: 0; right: 0; background-position: center calc(25%);
       opacity: 0.5; background-size: cover;">
       <video autoplay loop muted playsinline title="" class="slide-grid-content">
@@ -9,7 +9,7 @@
       </video>
     </div>
     <h2 class="fw-bold text-muted">{{ $t('productPage.vision') }}</h2>
-  </div>
+  </div> -->
   <div class="container mt-md-5 mt-3 mb-7">
     <div class="row">
       <div class="col-md-2">
@@ -18,6 +18,7 @@
             <input type="text" class="form-control rounded-0 searchBar" style="height: 45px;" :placeholder="searchPlaceholder" @input="search()" v-model="searchText"/>
           </div>
           <h4><RouterLink class="py-2 d-block text-muted" to="/products" @click="resetSearch">{{ $t('productPage.allProducts') }}</RouterLink></h4>
+          <!-- 分類 -->
           <div class="card border-0">
             <div class="card-header px-0 py-4 bg-white border border-bottom-0 border-top border-start-0 border-end-0 rounded-0" id="headingOne" data-bs-toggle="collapse" data-bs-target="#collapseOne">
               <div class="d-flex justify-content-between align-items-center pe-1" style="cursor: pointer;">
@@ -27,7 +28,7 @@
                 <i class="fas fa-chevron-down rotate-icon" data-bs-toggle="collapse" data-bs-target="#collapseOne"></i>
               </div>
             </div>
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div id="collapseOne" ref="collapseElement" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="card-body py-0">
                 <ul class="list-unstyled">
                   <li v-for="(item, index) in category" :key="index">
@@ -73,6 +74,7 @@
 <script>
 import PaginationBar from '@/components/userProductList/PaginationBar.vue'
 import LoadingOverlay from '@/components/LoadingOverlay.vue'
+import { Collapse } from 'bootstrap'
 import productStore from '@/stores/productsStore'
 import { mapActions, mapState } from 'pinia'
 import AOS from 'aos'
@@ -138,6 +140,8 @@ export default {
   },
   mounted () {
     this.renderProducts(this.currentCategory, this.currentPage) // 取得商品資料
+    const bsCollapse = new Collapse(this.$refs.collapseElement)
+    bsCollapse.hide()
   },
   watch: {
     '$route.query': {

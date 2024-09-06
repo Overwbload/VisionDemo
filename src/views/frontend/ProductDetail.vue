@@ -41,7 +41,7 @@
           </div>
           <div class="col-md-6">
             <button type="btn" class="text-nowrap btn btn-dark w-100 py-2" :disabled="loadingIcon === product.id"
-              @click.prevent="addToCart(product.id, qty)">{{ $t('common.buyNow') }}
+              @click.prevent="addToCart(product.id, qty)">{{ $t('productDetailPage.addToCart') }}
             </button>
           </div>
         </div>

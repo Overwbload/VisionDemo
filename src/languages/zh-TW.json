@@ -46,7 +46,8 @@
     "regulation2": "2.遙控無人機活動前應注意活動區域與遵守操作規定。",
     "regulation3": "3.相關活動區域及操作規定資訊，請見民航局網站及遙控無人機圖資行動應用程式。",
     "addedToCart": "已加入購物車",
-    "noContent": "找不到產品"
+    "noContent": "找不到產品",
+    "addToCart": "加入購物車"
   },
   "cart": {
     "title": "購物車列表",
