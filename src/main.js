@@ -38,13 +38,13 @@ configure({
   generateMessage: localize({ zh_TW: zhTW, en: enUS, jp: JAPAN }), // 載入繁體中文語系
   validateOnInput: true // 當輸入任何內容直接進行驗證
 })
-setLocale('zh_TW') // 設定預設語系
+setLocale('jp') // 設定預設語系
 // vee-validate setting end
 
 // i18n setting start
 const i18n = createI18n({
   legacy: false, // 啟用新的 Vue3 選項
-  locale: 'zh-TW', // 設置默認語言
+  locale: 'jp', // 設置默認語言
   messages: {
     en,
     'zh-TW': zh, // 引入 zh-TW.json 文件

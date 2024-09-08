@@ -189,10 +189,10 @@ export default {
   transition: transform 0.3s ease;
 }
 .rotate-icon[aria-expanded="true"] {
-  transform: rotate(0deg); /* 默认向下 */
+  transform: rotate(180deg); /* 默认向下 */
 }
 .rotate-icon[aria-expanded="false"] {
-  transform: rotate(180deg); /* 向上旋转 */
+  transform: rotate(0deg); /* 向上旋转 */
 }
 /* accordion */
 .slide-grid-content {

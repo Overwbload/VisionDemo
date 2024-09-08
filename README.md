@@ -1,110 +1,69 @@
-# 六角學院 Vue 樣板
+VISIONドローン
+最新かつ最先端のドローン機種を紹介し、購入することができます。購入者は、最も人気のある売れ筋モデルを簡単に閲覧できます。
 
-> 這是六角學院的 Vue 樣板，是基於 Vite 所建立的專案。
+ウェブサイトの機能
 
-Node.js 版本建議為：18.17.1 以上
+フロントエンド:
+ドローンの紹介とマーケティング
+ドローンのブラウジング/購入/検索/ショッピングカートチェックアウト
+管理者ログインなどのサービス
 
-## 安裝與使用
+バックエンド:
+ドローンの追加/削除/編集
+注文の追加/削除/編集/支払い状況
+クーポンの追加/削除/編集
+などの機能管理
 
-以下將會引導你如何安裝此專案到你的電腦上。
+プロジェクトの開発
+Vue.js と Vite を使用して開発されています
 
-### 取得專案
+パッケージ:
+axios, vue-axios, vue-router, vue-loading-overlay, vee-validate, swiper, VueSweetalert2, vue-i18n, dayjs
+------------
+VISION Drones
+Provides the latest and most advanced drone models for introduction and purchase. Buyers can easily browse the most popular and bestselling models.
 
-```bash
-git clone https://github.com/hexschool/vite-template.git
-```
+Website Features
 
-### 移動到專案資料夾
+Frontend:
+Introduction and marketing of drones
+Browsing, purchasing, searching, and checkout of drones
+Administrator login and related services
 
-```bash
-cd vite-template
-```
+Backend:
+Management of drone addition, deletion, and editing
+Management of orders: addition, deletion, editing, and payment status
+Management of coupons: addition, deletion, and editing
 
-## 環境變數
+Project Development
+Developed using Vue.js and Vite
 
-請將 `.env.example` 複製一份並命名為 `.env`，並將裡面的環境變數設定為你的值。
+Packages:
+axios, vue-axios, vue-router, vue-loading-overlay, vee-validate, swiper, VueSweetalert2, vue-i18n, dayjs
+--------------
+VISION無人機
+提供您最新最先端的無人機機種介紹與購買，購買者可輕鬆瀏覽時下最流行熱賣的機型
 
-```bash
-cp .env.example .env
-```
+網站提供
 
-### 安裝套件
+前台:
+無人機介紹與行銷推廣
+無人機的瀏覽/購買/搜尋/購物車結帳
+管理者登入 等服務
 
-```bash
-npm install
-```
+後台:
+管理者進行無人機的新增/刪除/編輯
+訂單的新增/刪除/編輯/支付狀態
+優惠券的新增/刪除/編輯
+等功能管理
 
-### 啟動開發環境
-
-```bash
-npm run dev
-```
-
-### 打包專案
-
-```bash
-npm run build
-```
-
-### 部署專案
-
-```bash
-npm run deploy
-```
-
-## 套件
-
-以下是已經安裝在專案中的套件。
-
-- axios (^1.6.5)
-- bootstrap (^5.3.2)
-- bootstrap-icons (^1.11.3)
-- dotenv (^16.3.1)
-- pinia (^2.1.7)
-- vue (^3.3.11)
-- vue-router (^4.2.5)
-- @vitejs/plugin-vue (^4.5.2)
-- eslint (^8.49.0)
-- eslint-config-standard (^^17.1.0)
-- eslint-import-resolver-alias (^1.1.2)
-- eslint-plugin-import (^2.29.1)
-- eslint-plugin-n (^16.6.2)
-- eslint-plugin-promise (^6.1.1)
-- eslint-plugin-vue (^9.20.1)
-- gh-pages (^6.1.1)
-- sass (^1.69.7)
-- vite (^5.0.10)
-- vite-plugin-eslint (^1.8.1)
-
-## 資料夾結構
-
-- `.vscode`：Visual Studio Code 的設定檔
-- `dist`：打包後的檔案
-- `public`：公開的靜態檔案
-- `src`：專案的程式碼
-  - `assets`：靜態檔案
-  - `components`：元件
-  - `router`：路由
-  - `store`：狀態管理
-  - `views`：頁面
-  - `App.vue`：根元件
-  - `main.js`：進入點
-- `.env.example`：環境變數範本
-- `.eslintrc.js`：ESLint 設定檔
-- `.gitignore`：Git 忽略檔案
-- `.nvmrc`：Node.js 版本
-- `index.html`：進入點 HTML
-- `package-lock.json`：套件版本鎖定
-- `package.json`：專案資訊
-- `README.md`：專案說明
-- `vite.config.js`：Vite 設定檔
-
-## gh-pages 部署說明
-
-內建預設是使用 gh-pages 進行部署，因此只需要在專案根目錄下執行以下指令即可。
-
-```bash
-npm run deploy
-```
-
-（請記得將 `.env` 中的 `REPOSITORY_NAME` 改為你的專案名稱即可。）
+專案使用Vue.js Vite 進行開發
+套件:
+axios,vue-axios,
+vue-router
+vue-loading-overlay,
+vee-validate,
+swiper,
+VueSweetalert2,
+vue-i18n,
+dayjs
